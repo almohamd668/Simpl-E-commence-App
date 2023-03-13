@@ -1,0 +1,22 @@
+
+.info .card {
+    box-shadow: none;
+    border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+
+} 
+
+.info .card  .card-img {
+    height: auto;
+    width: 400px;
+}
+.info .card  p {
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+.info .card h5 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}

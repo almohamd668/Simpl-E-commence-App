@@ -6,12 +6,12 @@ import {
 import "./Navbar.css";
 
 const Navbar = () => {
-  const navegat = useNavigate();
-  const logOutHandler = () => navegat("/", { replace: true });
+  const navigate = useNavigate();
+  const logOutHandler = () => navigate("/", { replace: true });
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container">
           <Link className="navbar-brand" to="/">
             logo
@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link " aria-current="page" to="/">
                   Home
                 </Link>
               </li>
@@ -39,7 +39,7 @@ const Navbar = () => {
                   About
                 </Link>
               </li>
-              <li onClick={logOutHandler} className="nav-item">
+              <li onClick={logOutHandler} className="nav-link">
                 Logout
               </li>
             </ul>

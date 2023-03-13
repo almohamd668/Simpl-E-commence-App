@@ -45,12 +45,11 @@ const ProductsList = () => {
         );
       })}
 
-      <div className="row">
+      <div className="row mb-5">
         {products.map((product) => {
           return (
             <div className="col-3" key={product.id}>
               <Product product={product} showButton={true} />
-              <h1>{product.id}</h1>
             </div>
           );
         })}

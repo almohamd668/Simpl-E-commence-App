@@ -1,0 +1,13 @@
+
+.card  {
+   box-shadow: 0px 1px 1px  #e0cece inset;
+    font-size: .7rem;
+    height: fit-content; 
+    padding: 5px;
+    margin-bottom: 20px;
+} 
+.card  .card-img {
+  
+    max-height: 500px;
+}
+
