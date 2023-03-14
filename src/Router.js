@@ -12,7 +12,7 @@ export const rout = createBrowserRouter([
   element:<App/>,
   children: [
     {
-      path:"",
+      path:"/",
       element: <ProductsList/>
      },
      {
