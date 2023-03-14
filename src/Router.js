@@ -8,7 +8,7 @@ import Notfound from './Notfound';
 
 export const rout = createBrowserRouter([
  {
-  path:"/Simple-E-commence-App",
+  path:"Simple-E-commence-App",
   element:<App/>,
   children: [
     {
