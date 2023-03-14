@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/%D8%A4/static/css/main.2baa5d94.css",
-    "main.js": "/%D8%A4/static/js/main.69313ded.js",
-    "static/js/787.28cb0dcd.chunk.js": "/%D8%A4/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/%D8%A4/index.html",
-    "main.2baa5d94.css.map": "/%D8%A4/static/css/main.2baa5d94.css.map",
-    "main.69313ded.js.map": "/%D8%A4/static/js/main.69313ded.js.map",
-    "787.28cb0dcd.chunk.js.map": "/%D8%A4/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Simple-E-commence-App/static/css/main.2baa5d94.css",
+    "main.js": "/Simple-E-commence-App/static/js/main.3bab05fd.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Simple-E-commence-App/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Simple-E-commence-App/index.html",
+    "main.2baa5d94.css.map": "/Simple-E-commence-App/static/css/main.2baa5d94.css.map",
+    "main.3bab05fd.js.map": "/Simple-E-commence-App/static/js/main.3bab05fd.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Simple-E-commence-App/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2baa5d94.css",
-    "static/js/main.69313ded.js"
+    "static/js/main.3bab05fd.js"
   ]
 }
