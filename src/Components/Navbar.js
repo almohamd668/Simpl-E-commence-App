@@ -13,7 +13,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container">
-          <Link className="navbar-brand" to="/Simple-E-commence-App">
+          <Link className="navbar-brand" to={`Simple-E-commence-App`}>
             logo
           </Link>
           <button
@@ -30,12 +30,12 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link " aria-current="page" to="/Simple-E-commence-App">
+                <Link className="nav-link " aria-current="page" to={`Simple-E-commence-App`}>
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Simple-E-commence-App/about">
+                <Link className="nav-link" to={`Simple-E-commence-App/about`}>
                   About
                 </Link>
               </li>
